@@ -25,8 +25,6 @@ jobs:
         run: |
             pwd
             cd ./core/platforms/
-            python3 dailymotion.py x2j7kha > ../../streams/EURONEWS.m3u8
-            python3 dailymotion.py k5Hfx6eeaTjBE5zRXcn > ../../streams/STAR_KENTRIKHS_ELLADAS.m3u8
             python3 twitch.py 34100tv > ../../streams/34100_TV.m3u8
             python3 twitch.py alithiavideo > ../../streams/ALITHIA_TV.m3u8
             python3 twitch.py radiotvanemosgr > ../../streams/ANEMOS_RADIO_TV.m3u8
@@ -38,6 +36,7 @@ jobs:
             python3 twitch.py dionthleorash > ../../streams/DION_TV.m3u8
             python3 twitch.py eurotvgreece  > ../../streams/EURO_TV.m3u8
             python3 twitch.py extacy_tv > ../../streams/EXTACY_TV.m3u8
+            python3 twitch.py extacytvgreeks > ../../streams/EXTACY_TV_GREEKS.m3u8
             python3 twitch.py extacy_tv_cy > ../../streams/EXTACY_TV_Cyprus.m3u8          
             python3 twitch.py failarmy > ../../streams/FAILARMY.m3u8
             python3 twitch.py farostv1959 > ../../streams/FAROS_TV_EKKLISIA.m3u8
@@ -64,6 +63,9 @@ jobs:
             python3 twitch.py xtvision > ../../streams/XTVISION.m3u8
             python3 twitch.py xylagany_paradosi > ../../streams/XYLAGANI.m3u8
             python3 twitch.py channelzeys  > ../../streams/ZEYS_TV.m3u8
+            python3 dailymotion.py x2j7kha > ../../streams/EURONEWS.m3u8
+            python3 dailymotion.py k5Hfx6eeaTjBE5zRXcn > ../../streams/STAR_KENTRIKHS_ELLADAS.m3u8
+            python3 dailymotion.py 1ilp5b3jja3168a4092 > ../../streams/STAR_KENTRIKHS_ELLADAS_2.m3u8
       - name: git add
         run: |
           git add -A
