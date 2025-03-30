@@ -63,7 +63,7 @@ jobs:
             python3 twitch.py verginacy > ../../streams/VERGINA_CYPRUS.m3u8
             python3 twitch.py xtvision > ../../streams/XTVISION.m3u8
             python3 twitch.py xylagany_paradosi > ../../streams/XYLAGANI.m3u8
-            python3 twitch.py channelzeys  > ../../streams/ZEYS_TV.m3u8
+            python3 twitch.py zefstv1 > ../../streams/ZEYS_TV.m3u8
             python3 dailymotion.py x2j7kha > ../../streams/EURONEWS.m3u8
             python3 dailymotion.py k5Hfx6eeaTjBE5zRXcn > ../../streams/STAR_KENTRIKHS_ELLADAS.m3u8
       - name: git add
